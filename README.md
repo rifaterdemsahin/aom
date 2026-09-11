@@ -7,6 +7,7 @@ Joe Yoder’s Adaptive Object Model: **types as runtime metadata**, a small inte
 ## Live links
 
 - 🌐 Live site: [https://rifaterdemsahin.github.io/aom/](https://rifaterdemsahin.github.io/aom/)
+- 🧩 Explainer (original long page): [https://rifaterdemsahin.github.io/aom/5_Symbols/aom_explainer.html](https://rifaterdemsahin.github.io/aom/5_Symbols/aom_explainer.html)
 - 📘 Live README.md: [https://rifaterdemsahin.github.io/aom/README.md](https://rifaterdemsahin.github.io/aom/README.md)
 - 🐙 GitHub: [rifaterdemsahin/aom](https://github.com/rifaterdemsahin/aom)
 - 📄 README on GitHub: [blob/main/README.md](https://github.com/rifaterdemsahin/aom/blob/main/README.md)

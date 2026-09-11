@@ -542,6 +542,7 @@
       
       <nav class="project-menu-nav" id="projectMenu">
         <a href="index.html" class="menu-link active">Home</a>
+        <a href="5_Symbols/aom_explainer.html" class="menu-link">Explainer</a>
         <a href="5_Symbols/markdown_renderer.html?file=4_Formula/specs.md" class="menu-link">Specs</a>
         <a href="5_Symbols/markdown_renderer.html?file=README.md" class="menu-link">README</a>
       </nav>
@@ -733,6 +734,7 @@
     let navigationData = {
       projectMenu: [
         { label: "Home", url: "index.html" },
+        { label: "Explainer", url: "5_Symbols/aom_explainer.html" },
         { label: "Specs", url: "5_Symbols/markdown_renderer.html?file=4_Formula/specs.md" },
         { label: "README", url: "5_Symbols/markdown_renderer.html?file=README.md" }
       ],
@@ -801,6 +803,7 @@
         { label: "   ├─ Sanity Data Source", url: "7_Testing_Known/sanity_check_report.md" },
         { label: "---", url: "divider" },
         { label: "Artifacts Carousel", url: "5_Symbols/artifacts_carousel.html" },
+        { label: "AOM Explainer", url: "5_Symbols/aom_explainer.html" },
         { label: "agents.md", url: "agents.md" },
         { label: "claude.md", url: "claude.md" },
         { label: "gemini.md", url: "gemini.md" },
@@ -864,7 +867,7 @@
           
           // Route relative URLs (except Home index.html) through renderer if they are MD files or directories
           let finalUrl = item.url;
-          if (finalUrl !== "index.html" && !finalUrl.startsWith("http") && !finalUrl.includes("markdown_renderer.html")) {
+          if (finalUrl !== "index.html" && !finalUrl.startsWith("http") && !finalUrl.includes(".html")) {
             finalUrl = `5_Symbols/markdown_renderer.html?file=${finalUrl}`;
           }
           
@@ -900,7 +903,7 @@
             
             // Route relative URLs dynamically through the renderer
             let finalUrl = item.url;
-            if (finalUrl !== "index.html" && finalUrl !== "divider" && !finalUrl.startsWith("http") && !finalUrl.includes("markdown_renderer.html")) {
+            if (finalUrl !== "index.html" && finalUrl !== "divider" && !finalUrl.startsWith("http") && !finalUrl.includes(".html")) {
               finalUrl = `5_Symbols/markdown_renderer.html?file=${finalUrl}`;
             }
             

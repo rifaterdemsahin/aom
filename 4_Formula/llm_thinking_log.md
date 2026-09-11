@@ -4,6 +4,22 @@ This log documents the thinking phase summaries and reasoning processes of the L
 
 ---
 
+## 📅 2026-09-11 — Symbols Agent: restore old explainer to Project Menu
+
+### 📥 Input / Task
+The old index.html had great content. Recover it and place it in the Project Menu tab.
+
+### 💭 Thinking & Reasoning Process
+- Kept delivery-pilot Home; restored the long article as `5_Symbols/aom_explainer.html` (RULE-005 — not a new root file).
+- Image paths now `assets/images/` (page lives under `5_Symbols/`).
+- Fixed Home menu JS so `.html` URLs are not sent through the markdown renderer (otherwise Explainer would 404 as a `?file=`).
+
+### 📤 Outcomes & Decisions
+- Project Menu: Home · Explainer · Specs · README
+- SPEC-015.
+
+---
+
 ## 📅 2026-09-11 — Test + Formula Agents: nav_sync, smoke 11/11, Pages Actions
 
 ### 📥 Input / Task

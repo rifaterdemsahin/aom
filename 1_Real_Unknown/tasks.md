@@ -59,6 +59,7 @@
 | TSK-034 | Merge AOM explainer into `index.html` + README | Symbols Agent | Simulation images; Formula two-menu | [x] |
 | TSK-035 | Pull public skills; add `grok.md` | Environment Agent | Formula nav sync | [x] |
 | TSK-036 | nav_sync + smoke_test + Pages Actions | Test Agent | Formula owns `static.yml` | [x] |
+| TSK-037 | Restore old explainer HTML in Project Menu | Symbols Agent | Formula SPEC-015 | [x] |
 
 ## Phase 6: Implementation (In Progress)
 

@@ -72,6 +72,7 @@ MENU = [
     ("   ├─ Sanity Data Source", "7_Testing_Known/sanity_check_report.md"),
     ("---", "divider"),
     ("Artifacts Carousel", "5_Symbols/artifacts_carousel.html"),
+    ("AOM Explainer", "5_Symbols/aom_explainer.html"),
     ("agents.md", "agents.md"),
     ("claude.md", "claude.md"),
     ("gemini.md", "gemini.md"),

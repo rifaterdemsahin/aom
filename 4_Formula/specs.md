@@ -190,6 +190,17 @@
 - **Related Files:** `index.html`, `README.md`, `grok.md`, `.github/workflows/static.yml`, `5_Symbols/toolbox/smoke_test.py`
 - **Last Updated:** 2026-09-11
 
+### SPEC-015: Recovered AOM explainer in Project Menu
+- **Status:** Active
+- **Description:** The pre-refactor long explainer (`5_Symbols/_obsolete/aom_index_pre_refactor.html`) is restored as `5_Symbols/aom_explainer.html` and listed in the Project Menu as **Explainer**.
+- **Key Behaviors:**
+  - Full Type Square / LLM / rclone / multi-model article and original images at `5_Symbols/assets/images/`
+  - Project Menu on Home: Home, Explainer, Specs, README
+  - Root `index.html` does not wrap `.html` project-menu URLs through the markdown renderer
+  - Explainer page keeps in-page section links plus Project Menu + Debug Menu
+- **Related Files:** `5_Symbols/aom_explainer.html`, `navigation_config.json`, `index.html`
+- **Last Updated:** 2026-09-11
+
 ---
 
 ## Spec Template
