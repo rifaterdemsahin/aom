@@ -182,7 +182,9 @@
   - Template skeleton (7 stages, skills, workflows, coordinator files) is present in this repo
   - Concept photographs live at `5_Symbols/assets/images/` (not a root `images/` folder)
   - Pre-refactor homepage/README copies are under `5_Symbols/_obsolete/`
-  - Placeholders, AOM stage docs, two-menu `index.html`, skills, and smoke tests follow in later commits
+  - Placeholders: Pages URL `https://rifaterdemsahin.github.io/aom/`, repo `rifaterdemsahin/aom`, Supabase project id `aom`
+  - Secrets: existing Key Vault `dp-kv-deliverypilot` (`/vaults/dp-kv-deliverypilot/secrets`) — do not create a new vault
+  - AOM stage docs, two-menu `index.html`, skills, and smoke tests follow in later commits
 - **Related Files:** `index.html`, `5_Symbols/assets/images/`, `5_Symbols/_obsolete/`, `5_Symbols/rules/agent_operating_rules.md`
 - **Last Updated:** 2026-09-11
 

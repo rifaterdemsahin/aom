@@ -15,7 +15,7 @@
   A clean, modern SaaS dashboard homepage UI. Sleek dark mode, neon teal and purple accent colors. Glassmorphism panels, interactive charts and analytics widgets. Ultra high-resolution, vector style, user interface design, no device frame --ar 16:9
   ```
 - **Generated Date:** YYYY-MM-DD
-- **Linked Asset:** [mockup_index.png](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/3_Simulation/mockup_index.png)
+- **Linked Asset:** [hero-runtime.jpg](../5_Symbols/assets/images/hero-runtime.jpg)
 
 ---
 
@@ -28,7 +28,7 @@
   Mobile app interface showing a slide-out navigation drawer/menu. Clean typography, minimalist design, dark mode HSL tailwind colors. Flat icons, sleek UI, no phone frame --ar 9:16
   ```
 - **Generated Date:** YYYY-MM-DD
-- **Linked Asset:** [mockup_navigation.png](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/3_Simulation/mockup_navigation.png)
+- **Linked Asset:** [type-square-still.jpg](../5_Symbols/assets/images/type-square-still.jpg)
 
 ---
 

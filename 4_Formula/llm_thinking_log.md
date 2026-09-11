@@ -4,6 +4,23 @@ This log documents the thinking phase summaries and reasoning processes of the L
 
 ---
 
+## 📅 2026-09-11 — Environment Agent: placeholders + Key Vault
+
+### 📥 Input / Task
+Replace template consumer placeholders. Use `/vaults/dp-kv-deliverypilot/secrets`. Do not create a new vault.
+
+### 💭 Thinking & Reasoning Process
+- Replaced Pages/repo/project-id in `robots.txt`, `sitemap.xml`, `.env.example`, `supabase/config.toml`, renderer GitHub fallback, `index.html` GitHub social link.
+- Left persona "Using This Template" tables pointing at `delivery-pilot-template` as the *source* template (SPEC-010).
+- Rewrote `setup_azure.md` to show-and-set secrets on `dp-kv-deliverypilot` only.
+- Converted `file://` template paths to in-repo relative links.
+
+### 📤 Outcomes & Decisions
+- Vault name in `.env.example` is `dp-kv-deliverypilot`.
+- Static site still GitHub Pages; backend credentials still belong in this vault.
+
+---
+
 ## 📅 2026-09-11 — Real + Symbols Agents: import delivery-pilot-template (RULE-005)
 
 ### 📥 Input / Task

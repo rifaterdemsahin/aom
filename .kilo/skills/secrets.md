@@ -23,6 +23,6 @@ Manage secrets securely through Azure Key Vault — never expose credentials in 
 - Never store secrets in code, config files, or git history
 - Use Azure Key Vault (FIPS 140-2 HSMs, RBAC, audit logs)
 - Load secrets at runtime via Azure SDK or GitHub Actions `Azure/get-keyvault-secrets`
-- Create a matching Key Vault per environment (dev/staging/prod) in Azure Portal
+- Use existing vault `dp-kv-deliverypilot` (`/vaults/dp-kv-deliverypilot/secrets`). Do not create a new vault.
 - When adding a new secret, update `.env.example` with the placeholder variable name (no value)
-- Run `az keyvault secret set` to store the actual value in the appropriate vault
+- Run `az keyvault secret set --vault-name dp-kv-deliverypilot` to store the actual value
