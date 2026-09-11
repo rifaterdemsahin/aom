@@ -77,6 +77,7 @@ MENU = [
     ("gemini.md", "gemini.md"),
     ("copilot.md", "copilot.md"),
     ("kilocode.md", "kilocode.md"),
+    ("grok.md", "grok.md"),
 ]
 
 # 1. navigation_config.json

@@ -4,6 +4,20 @@
 
 ---
 
+## 📅 2026-09-11: AOM onto delivery-pilot-template
+
+### What went well
+- RULE-005 move of `images/` before smoke Root Layout ran.
+- Existing vault `dp-kv-deliverypilot` is reachable (`az keyvault show`).
+- Two-menu chrome + AOM copy can coexist.
+
+### Gaps & Challenges
+- Smoke 3-way sync treats any `foo/bar.md` substring in `index.html` as a menu path. Live README URLs looked like drift.
+
+### Takeaway
+- Do not put `.../README.md` absolute URLs in `index.html`; route README through the renderer.
+
+
 ## 📅 2026-05-31: Stage 1 Kanban Implementation & Navigation Setup
 
 ### What went well

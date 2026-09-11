@@ -11,6 +11,8 @@ Severity levels: `CRITICAL` | `ERROR` | `WARNING` | `INFO`
 
 <!-- Add new entries below this line, newest first -->
 
+[2026-09-11] [7_Testing_Known] [WARNING] — Smoke Nav 3-Way Sync failed: footer URLs `github.io/aom/README.md` and `github.com/.../blob/main/README.md` matched MD_URL_PATTERN as fake markdown paths.
+
 [2026-06-02] [SETUP] [INFO] — error.log initialized for project tracking.
 
 ---

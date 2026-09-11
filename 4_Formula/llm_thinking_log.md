@@ -4,6 +4,22 @@ This log documents the thinking phase summaries and reasoning processes of the L
 
 ---
 
+## 📅 2026-09-11 — Test + Formula Agents: nav_sync, smoke 11/11, Pages Actions
+
+### 📥 Input / Task
+Run `nav_sync.py` and `smoke_test.py`. Deploy via GitHub Actions.
+
+### 💭 Thinking & Reasoning Process
+- Added `grok.md` to MENU (70 debug entries).
+- First smoke run failed Nav 3-Way Sync on footer `.md` URLs; fixed links.
+- Confirmed vault `dp-kv-deliverypilot` exists in `deliverypilot-rg`.
+- Switched Pages `build_type` from `legacy` (branch) to `workflow` so `static.yml` is the deploy path.
+
+### 📤 Outcomes & Decisions
+- Local smoke 11/11. SPEC-014 Active. TSK-031–036 done.
+
+---
+
 ## 📅 2026-09-11 — Environment Agent: skills + grok.md
 
 ### 📥 Input / Task

@@ -55,10 +55,10 @@
 |----|------|-------|-------------|------|
 | TSK-031 | Import template; RULE-005 move `images/` | Symbols Agent | Real Agent coordinates template copy | [x] |
 | TSK-032 | Placeholders + Key Vault `dp-kv-deliverypilot` | Environment Agent | Formula SPEC-014 | [x] |
-| TSK-033 | Map AOM into stage docs | Real Agent | Environment + Simulation + Formula | [~] |
+| TSK-033 | Map AOM into stage docs | Real Agent | Environment + Simulation + Formula | [x] |
 | TSK-034 | Merge AOM explainer into `index.html` + README | Symbols Agent | Simulation images; Formula two-menu | [x] |
-| TSK-035 | Pull public skills; add `grok.md` | Environment Agent | Formula nav sync | [ ] |
-| TSK-036 | nav_sync + smoke_test + Pages Actions | Test Agent | Formula owns `static.yml` | [ ] |
+| TSK-035 | Pull public skills; add `grok.md` | Environment Agent | Formula nav sync | [x] |
+| TSK-036 | nav_sync + smoke_test + Pages Actions | Test Agent | Formula owns `static.yml` | [x] |
 
 ## Phase 6: Implementation (In Progress)
 

@@ -4,8 +4,8 @@
 > Latest run overwrites this file; one report per test run.
 
 ## Run Info
-- **Date:** 2026-09-10 06:12
-- **Trigger:** RULE-005 root layout + nav backfill
+- **Date:** 2026-09-11 11:23
+- **Trigger:** AOM template refactor after nav fix
 - **Mode:** Local filesystem
 - **Tester:** smoke_test.py (automated)
 - **Verdict:** ✅ ALL PASS

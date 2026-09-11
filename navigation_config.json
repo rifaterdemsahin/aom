@@ -73,6 +73,7 @@
     {"label": "claude.md", "url": "claude.md"},
     {"label": "gemini.md", "url": "gemini.md"},
     {"label": "copilot.md", "url": "copilot.md"},
-    {"label": "kilocode.md", "url": "kilocode.md"}
+    {"label": "kilocode.md", "url": "kilocode.md"},
+    {"label": "grok.md", "url": "grok.md"}
   ]
 }

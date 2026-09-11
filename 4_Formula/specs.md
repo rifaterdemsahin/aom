@@ -184,8 +184,10 @@
   - Pre-refactor homepage/README copies are under `5_Symbols/_obsolete/`
   - Placeholders: Pages URL `https://rifaterdemsahin.github.io/aom/`, repo `rifaterdemsahin/aom`, Supabase project id `aom`
   - Secrets: existing Key Vault `dp-kv-deliverypilot` (`/vaults/dp-kv-deliverypilot/secrets`) — do not create a new vault
-  - AOM stage docs, two-menu `index.html`, skills, and smoke tests follow in later commits
-- **Related Files:** `index.html`, `5_Symbols/assets/images/`, `5_Symbols/_obsolete/`, `5_Symbols/rules/agent_operating_rules.md`
+  - Homepage uses delivery-pilot two-menu chrome plus AOM explainer, carousel, live footer
+  - `grok.md` persona; skills from `anthropics/skills` plus Kilo `aom` / `github-pages`
+  - Local `smoke_test.py` 11/11; Pages build_type is GitHub Actions (`static.yml`)
+- **Related Files:** `index.html`, `README.md`, `grok.md`, `.github/workflows/static.yml`, `5_Symbols/toolbox/smoke_test.py`
 - **Last Updated:** 2026-09-11
 
 ---

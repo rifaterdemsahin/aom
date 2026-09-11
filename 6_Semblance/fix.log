@@ -11,6 +11,8 @@ Status: `APPLIED` | `VERIFIED` | `WORKAROUND` | `PENDING`
 
 <!-- Add new entries below this line, newest first -->
 
+[2026-09-11] [5_Symbols] [VERIFIED] — Footer live README uses markdown_renderer query param; GitHub link is repo URL without `/blob/.../README.md`. Smoke 11/11 pass.
+
 [2026-06-02] [SETUP] [APPLIED] — fix.log initialized. Linked to error.log for cross-referencing.
 
 ---
