@@ -4,6 +4,23 @@ This log documents the thinking phase summaries and reasoning processes of the L
 
 ---
 
+## 📅 2026-09-11 — Real + Environment + Simulation + Formula: map AOM into stages
+
+### 📥 Input / Task
+Reset stage content for the Adaptive Object Model explainer while keeping framework structure.
+
+### 💭 Thinking & Reasoning Process
+- Rewrote problem, OKRs, hypotheses, questions; appended risks R-010/R-011, TSK-031–036, and this prompt.
+- Architecture gained an AOM data-plane diagram (files → rclone → Azure blobs / graph / SQL / vectors).
+- Carousel points at `5_Symbols/assets/images/` (RULE-005).
+- ADRs 002–003: reuse vault; Pages-only until an interpreter exists.
+
+### 📤 Outcomes & Decisions
+- No new markdown files (avoids debug-menu orphans).
+- SPEC-014 still Draft until homepage merge and smoke pass.
+
+---
+
 ## 📅 2026-09-11 — Environment Agent: placeholders + Key Vault
 
 ### 📥 Input / Task

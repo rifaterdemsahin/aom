@@ -1,12 +1,24 @@
 {
   "images": [
     {
-      "url": "3_Simulation/mockup_index.png",
-      "caption": "Homepage Mockup"
+      "url": "5_Symbols/assets/images/hero-runtime.jpg",
+      "caption": "Runtime objects assembled from metadata"
     },
     {
-      "url": "3_Simulation/mockup_navigation.png",
-      "caption": "Navigation Drawer Mockup"
+      "url": "5_Symbols/assets/images/type-square-still.jpg",
+      "caption": "Type Square — four corners of the kernel"
+    },
+    {
+      "url": "5_Symbols/assets/images/friction-dissolve.jpg",
+      "caption": "Old compile-time friction dissolving"
+    },
+    {
+      "url": "5_Symbols/assets/images/multi-model-rooms.jpg",
+      "caption": "Files, graph, vectors, tables as one building"
+    },
+    {
+      "url": "5_Symbols/assets/images/llm-writes-metadata.jpg",
+      "caption": "LLM writes descriptions; interpreter runs them"
     }
   ]
 }

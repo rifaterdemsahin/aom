@@ -27,7 +27,7 @@
 ### Question: [Insert Question from Stage 1]
 - **Original Question:** What was the open question?
 - **Resolution:** How was it resolved, and where is the decision documented?
-- **Linked Decision:** [4_Formula/decisions.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/4_Formula/)
+- **Linked Decision:** [4_Formula/decisions.md](../4_Formula)
 - **Result:** ✅ Resolved / ⚠️ Open
 - **Date Resolved:** YYYY-MM-DD
 

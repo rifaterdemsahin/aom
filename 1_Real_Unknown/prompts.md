@@ -4,6 +4,12 @@ Every prompt used in this project is recorded here. This serves as an audit trai
 
 ---
 
+| Date | Agent | Purpose | Prompt (summary) | What was done |
+|------|-------|---------|------------------|---------------|
+| 2026-09-11 | Grok (Real + Environment + Formula + Symbols + Test) | Refactor existing aom repo onto delivery-pilot-template | Read agents.md and RULE-001–005. Map files into 7 stages. Use Key Vault `/vaults/dp-kv-deliverypilot/secrets`. Pull skills. Run nav_sync and smoke_test. Commit each logical step. | Template imported; images moved; placeholders and vault docs updated; stage docs mapped next. |
+
+---
+
 ## Project Manager Prompt
 
 You are an expert AI Project Manager. Your goal is to guide the creation of a new project from conception to deployment using a strict framework of "Delegation" and "Diligence."

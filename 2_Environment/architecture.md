@@ -7,7 +7,23 @@
 
 ## 🗺️ High-Level System Architecture
 
-This project is built as a highly responsive, modern static application on **GitHub Pages**. Apps with a backend deploy to **Cloudflare Workers** or **Fly.io** based on requirements (RULE-003 / SPEC-012): lightweight/stateless backends go to Workers; **heavy container** workloads go to Fly.io. Both take credentials from **Azure Key Vault**. Default file/blob storage is **Azure project-based storage** (RULE-004).
+This **AOM** project is a static explainer on **GitHub Pages**. No backend is deployed in this pass (RULE-003). If an interpreter API is added later: lightweight/stateless → **Cloudflare Workers**; heavy containers → **Fly.io**. Both take credentials from existing **Azure Key Vault `dp-kv-deliverypilot`**. Default file/blob storage is **Azure project-based storage** (RULE-004).
+
+### AOM data plane (conceptual)
+
+```mermaid
+graph LR
+    LLM["LLM drafts metadata"] --> Files["YAML / Markdown files"]
+    Files --> Rclone["rclone copy/sync"]
+    Rclone --> AzureBlobs["Azure project blobs"]
+    Rclone --> Drive["Google Drive"]
+    Files --> Kernel["Tiny AOM interpreter"]
+    Kernel --> SQL["Relational properties"]
+    Kernel --> Graph["Accountability / Neo4j"]
+    Kernel --> Vec["Vectors / Qdrant"]
+    KV["dp-kv-deliverypilot"] --> Rclone
+    KV --> AzureBlobs
+```
 
 ```mermaid
 graph TD

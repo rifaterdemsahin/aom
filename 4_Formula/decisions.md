@@ -6,16 +6,17 @@
 
 ## 📋 ADR Index
 
-- **ADR 001:** Choice of Secrets Manager (Azure Key Vault)
-- **ADR 002:** [Title of the second decision]
+- **ADR 001:** Choice of Secrets Manager (Azure Key Vault `dp-kv-deliverypilot`)
+- **ADR 002:** Reuse existing vault — do not create aom-kv
+- **ADR 003:** Static frontend on GitHub Pages; no backend this pass
 
 ---
 
 ## 📌 ADR 001: Choice of Secrets Manager (Azure Key Vault)
 
 ### **Status:** Accepted
-**Date:** YYYY-MM-DD  
-**Decided By:** [Human / AI Agent]
+**Date:** 2026-09-11  
+**Decided By:** Environment Agent / user rule
 
 ### **Context & Problem Statement**
 *What is the context of this decision? What problem are we solving? (e.g. "We need a secure way to manage database credentials and API keys across environments without committing them to git.")*
@@ -37,3 +38,31 @@
 ### **Consequences**
 - **Pros:** High security, audit logging, simple credential rotation.
 - **Cons:** Requires active Azure credentials during CLI initialization and deployment pipelines.
+
+---
+
+## 📌 ADR 002: Reuse `dp-kv-deliverypilot`
+
+### **Status:** Accepted
+**Date:** 2026-09-11  
+**Decided By:** User (refactor prompt)
+
+### **Context & Problem Statement**
+Consumer projects must not spawn a Key Vault per repo.
+
+### **Decision Outcome**
+Use `/vaults/dp-kv-deliverypilot/secrets` for Fly.io, Cloudflare Workers, Azure Storage, and APIs. Document names in `.env.example` only.
+
+---
+
+## 📌 ADR 003: GitHub Pages for the AOM explainer
+
+### **Status:** Accepted
+**Date:** 2026-09-11  
+**Decided By:** Formula Agent (RULE-003)
+
+### **Context & Problem Statement**
+The site is HTML/CSS/JS with no server-side interpreter yet.
+
+### **Decision Outcome**
+Stay on GitHub Pages via `.github/workflows/static.yml`. Do not deploy Fly.io or Workers until an interpreter API exists. Metadata files may later live in Azure blobs (RULE-004).

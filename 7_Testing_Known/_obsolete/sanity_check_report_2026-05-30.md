@@ -16,13 +16,13 @@ While the conceptual model is highly effective for structuring thinking, there a
 
 | Stage | Folder Name | Current Status | Findings & Recommendations |
 | :--- | :--- | :--- | :--- |
-| **1** | [1_Real_Unknown](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown) | 🟢 Complete | Contains a clear README. Missing placeholder/skeleton files for `problem_statement.md`, `okrs.md`, `questions.md`, and `hypotheses.md`. |
-| **2** | [2_Environment](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/2_Environment) | 🟡 Incomplete | README is detailed. Files like `cloudflare_workers.md`, `fly_io.md`, `github_pages.md`, and `navigation.md` exist. Setup files (`setup_mac.md`, `setup_windows.md`, `setup_ai.md`, etc.) listed in the table are missing. |
-| **3** | [3_Simulation](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/3_Simulation) | 🟡 Incomplete | README is complete. `carousel_config.json` and mockup images are missing. |
-| **4** | [4_Formula](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/4_Formula) | 🟡 Incomplete | Contains `llm_thinking_log.md`. Missing `implementation_guide.md`, `research_notes.md`, `decisions.md`, and `docker_setup.md`. |
-| **5** | [5_Symbols](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/5_Symbols) | 🔴 Missing Code | README is complete. Source files like `main.py`, `Dockerfile`, `docker-compose.yml`, `requirements.txt`, and GitHub Actions workflows are missing. |
-| **6** | [6_Semblance](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/6_Semblance) | 🟡 Incomplete | README is complete. Missing `error_log.md`, `workarounds.md`, and `gap_analysis.md`. |
-| **7** | [7_Testing_Known](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/7_Testing_Known) | 🟡 Incomplete | Contains README with master checklist. Missing `validation_report.md` (this report serves as the first validation file). |
+| **1** | [1_Real_Unknown](../../1_Real_Unknown) | 🟢 Complete | Contains a clear README. Missing placeholder/skeleton files for `problem_statement.md`, `okrs.md`, `questions.md`, and `hypotheses.md`. |
+| **2** | [2_Environment](../../2_Environment) | 🟡 Incomplete | README is detailed. Files like `cloudflare_workers.md`, `fly_io.md`, `github_pages.md`, and `navigation.md` exist. Setup files (`setup_mac.md`, `setup_windows.md`, `setup_ai.md`, etc.) listed in the table are missing. |
+| **3** | [3_Simulation](../../3_Simulation) | 🟡 Incomplete | README is complete. `carousel_config.json` and mockup images are missing. |
+| **4** | [4_Formula](../../4_Formula) | 🟡 Incomplete | Contains `llm_thinking_log.md`. Missing `implementation_guide.md`, `research_notes.md`, `decisions.md`, and `docker_setup.md`. |
+| **5** | [5_Symbols](../../5_Symbols) | 🔴 Missing Code | README is complete. Source files like `main.py`, `Dockerfile`, `docker-compose.yml`, `requirements.txt`, and GitHub Actions workflows are missing. |
+| **6** | [6_Semblance](../../6_Semblance) | 🟡 Incomplete | README is complete. Missing `error_log.md`, `workarounds.md`, and `gap_analysis.md`. |
+| **7** | [7_Testing_Known](..) | 🟡 Incomplete | Contains README with master checklist. Missing `validation_report.md` (this report serves as the first validation file). |
 
 ---
 

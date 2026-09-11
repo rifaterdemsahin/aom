@@ -4,23 +4,23 @@
 
 ---
 
-## 🎯 Objective 1: [Enter High-Level Goal]
-*A qualitative, inspirational description of what you want to achieve.*
+## 🎯 Objective 1: Explain Adaptive Object Model in the AI / rclone era
 
-- **KR 1.1:** [Measurable Key Result - e.g., 100% compliance with X]
-- **KR 1.2:** [Measurable Key Result - e.g., Response time under 200ms]
-- **KR 1.3:** [Measurable Key Result]
+- **KR 1.1:** Live Pages site at https://rifaterdemsahin.github.io/aom/ returns HTTP 200
+- **KR 1.2:** Homepage covers Type Square, LLM metadata, rclone, and multiple data models
+- **KR 1.3:** README.md lists the public Pages URL and live README link
 
 ---
 
-## 🎯 Objective 2: [Enter High-Level Goal]
-*Another qualitative goal, if applicable.*
+## 🎯 Objective 2: Run AOM on the delivery-pilot template
 
-- **KR 2.1:** [Measurable Key Result]
-- **KR 2.2:** [Measurable Key Result]
+- **KR 2.1:** Root layout matches RULE-005 (smoke test Root Layout passes)
+- **KR 2.2:** Secrets documented against `/vaults/dp-kv-deliverypilot/secrets` only
+- **KR 2.3:** `python3 5_Symbols/toolbox/smoke_test.py` passes locally and in CI
 
 ---
 
 ## 🧪 Outcome Tracking & Validation
-*How and when will these Key Results be evaluated? (Links back to Stage 7)*
-- Final validation checklist is located in [7_Testing_Known/README.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/7_Testing_Known/README.md)
+
+- Final validation: [7_Testing_Known/README.md](../7_Testing_Known/README.md)
+- Smoke report: [6_Semblance/smoke_test_report.md](../6_Semblance/smoke_test_report.md)

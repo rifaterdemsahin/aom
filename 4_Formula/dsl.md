@@ -20,13 +20,13 @@ The framework structures all tasks into 7 distinct stages, mapping to specific c
 
 | Stage | Name | Cognitive Mapping | Definition |
 | :--- | :--- | :--- | :--- |
-| **1** | [1_Real_Unknown](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown) | **Active Ignorance** | Recognizing and explicitly stating what you do not know (hypotheses, OKRs, open questions) before writing code. |
-| **2** | [2_Environment](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/2_Environment) | **Mental Sandbox (Context)** | Establishing the technical setup, constraints, cloud credentials, and developer guidelines. |
-| **3** | [3_Simulation](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/3_Simulation) | **Mental Sandbox (Vision)** | Creating UI mockups, visual wireframes, and interaction flows to make the end product visible early. |
-| **4** | [4_Formula](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/4_Formula) | **Synthesis** | Compiling implementation guides, Research Notes, and Architectural Decision Records (ADRs). |
-| **5** | [5_Symbols](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/5_Symbols) | **Execution** | The production code repository containing raw executable scripts, Dockerfiles, and CI/CD pipelines. |
-| **6** | [6_Semblance](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/6_Semblance) | **Feedback Loop** | The honest documentation of runtime errors, active hotfixes, technical debt, and plan vs. outcome gaps. |
-| **7** | [7_Testing_Known](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/7_Testing_Known) | **Consolidation** | Proving and validating every Stage 1 unknown using test outcomes, master checklists, and final sign-offs. |
+| **1** | [1_Real_Unknown](../1_Real_Unknown) | **Active Ignorance** | Recognizing and explicitly stating what you do not know (hypotheses, OKRs, open questions) before writing code. |
+| **2** | [2_Environment](../2_Environment) | **Mental Sandbox (Context)** | Establishing the technical setup, constraints, cloud credentials, and developer guidelines. |
+| **3** | [3_Simulation](../3_Simulation) | **Mental Sandbox (Vision)** | Creating UI mockups, visual wireframes, and interaction flows to make the end product visible early. |
+| **4** | [4_Formula](.) | **Synthesis** | Compiling implementation guides, Research Notes, and Architectural Decision Records (ADRs). |
+| **5** | [5_Symbols](../5_Symbols) | **Execution** | The production code repository containing raw executable scripts, Dockerfiles, and CI/CD pipelines. |
+| **6** | [6_Semblance](../6_Semblance) | **Feedback Loop** | The honest documentation of runtime errors, active hotfixes, technical debt, and plan vs. outcome gaps. |
+| **7** | [7_Testing_Known](../7_Testing_Known) | **Consolidation** | Proving and validating every Stage 1 unknown using test outcomes, master checklists, and final sign-offs. |
 
 ---
 

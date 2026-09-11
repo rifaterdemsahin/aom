@@ -15,6 +15,24 @@
 
 ## ⚠️ Active Risks
 
+### R-010: Accidental new Key Vault
+- **Status:** 🟠 Active
+- **Severity:** High
+- **Likelihood:** Medium (template docs used to say `az keyvault create`)
+- **Impact:** Split secrets, orphaned vault cost
+- **Trigger:** Agent follows old `dg-pilot-kv` create steps
+- **Mitigation:** `2_Environment/setup_azure.md` forbids creating a vault; only `dp-kv-deliverypilot`
+- **Last Updated:** 2026-09-11
+
+### R-011: AOM interpreter becomes an accidental language
+- **Status:** 🟡 Active
+- **Severity:** Medium
+- **Likelihood:** High if LLMs generate unbounded Rule Objects
+- **Impact:** Unmaintainable runtime
+- **Trigger:** Generating a large interpreter without Type Square invariants
+- **Mitigation:** Keep kernel small; SPEC-014; humans own rules
+- **Last Updated:** 2026-09-11
+
 ### R-001: Race Conditions on Parallel Git Pushes
 - **Status:** 🔴 Active
 - **Severity:** Critical

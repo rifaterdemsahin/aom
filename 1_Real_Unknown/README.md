@@ -18,14 +18,14 @@ This folder captures everything we **don't yet know** — the questions that dri
 
 | File | Description |
 |------|-------------|
-| [`problem_statement.md`](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/problem_statement.md) | The core problem this project solves |
-| [`okrs.md`](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/okrs.md) | Objectives and Key Results |
-| [`questions.md`](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/questions.md) | Open questions driving the work |
-| [`hypotheses.md`](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/hypotheses.md) | Assumptions to validate |
-| [`kanban.md`](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/kanban.md) | Project Kanban Board for task tracking |
-| [`tasks.md`](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/tasks.md) | Project phases and task breakdown managed by the Real Agent |
-| [`costs.md`](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/costs.md) | Project Cost Tracker for infrastructure/API expenses |
-| [`risks.md`](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/risks.md) | Project risk register — active risks, solved risks, and risk update log |
+| [`problem_statement.md`](problem_statement.md) | The core problem this project solves |
+| [`okrs.md`](okrs.md) | Objectives and Key Results |
+| [`questions.md`](questions.md) | Open questions driving the work |
+| [`hypotheses.md`](hypotheses.md) | Assumptions to validate |
+| [`kanban.md`](kanban.md) | Project Kanban Board for task tracking |
+| [`tasks.md`](tasks.md) | Project phases and task breakdown managed by the Real Agent |
+| [`costs.md`](costs.md) | Project Cost Tracker for infrastructure/API expenses |
+| [`risks.md`](risks.md) | Project risk register — active risks, solved risks, and risk update log |
 
 ## Rules
 

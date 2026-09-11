@@ -25,7 +25,7 @@
 - [ ] **TSK-010: Advanced Multimodal Simulation Test**
   - **Assignee:** Gemini
   - **Details:** Validate UI layouts dynamically using Gemini multimodal vision checks.
-  - **Stage Reference:** [Simulation Stage](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/3_Simulation/)
+  - **Stage Reference:** [Simulation Stage](../3_Simulation)
 
 ---
 
@@ -35,17 +35,17 @@
 - [ ] **TSK-005: Setup CI/CD Pipeline**
   - **Assignee:** Copilot / DevOps
   - **Details:** Set up GitHub Actions workflow to deploy static content to GitHub Pages.
-  - **Stage Reference:** [2_Environment/setup_ai.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/2_Environment/setup_ai.md)
+  - **Stage Reference:** [2_Environment/setup_ai.md](../2_Environment/setup_ai.md)
 
 - [ ] **TSK-006: Integrate Azure Key Vault**
   - **Assignee:** Claude / Security
   - **Details:** Connect runtime environments to Azure Key Vault for secure secrets storage.
-  - **Stage Reference:** [2_Environment/setup_azure.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/2_Environment/setup_azure.md)
+  - **Stage Reference:** [2_Environment/setup_azure.md](../2_Environment/setup_azure.md)
 
 - [ ] **TSK-007: Implement Active Reflection Routine**
   - **Assignee:** All Agents
   - **Details:** Establish `6_Semblance/lessons_learned.md` for post-milestone retrospectives.
-  - **Stage Reference:** [6_Semblance Stage](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/6_Semblance/)
+  - **Stage Reference:** [6_Semblance Stage](../6_Semblance)
 
 ---
 
@@ -62,7 +62,7 @@
 - [ ] **TSK-008: Basic Stage Folders Structure Validation**
   - **Assignee:** Claude / Gemini
   - **Details:** Ensure folder mapping (1-7) exists and is populated with correct template files.
-  - **Stage Reference:** [7_Testing_Known/README.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/7_Testing_Known/README.md)
+  - **Stage Reference:** [7_Testing_Known/README.md](../7_Testing_Known/README.md)
 
 ---
 
@@ -72,27 +72,27 @@
 - [x] **TSK-001: Git Repository Initialization**
   - **Assignee:** Human
   - **Details:** Initialized repository and basic project structure.
-  - **Stage Reference:** [README.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/README.md)
+  - **Stage Reference:** [README.md](../README.md)
 
 - [x] **TSK-002: Project Home Page Layout**
   - **Assignee:** Gemini
   - **Details:** Created `index.html` and `navigation_config.json` for site entry point.
-  - **Stage Reference:** [index.html](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/index.html)
+  - **Stage Reference:** [index.html](../index.html)
 
 - [x] **TSK-003: Define Kanban Template**
   - **Assignee:** Gemini
   - **Details:** Created `1_Real_Unknown/kanban.md` and define the initial setup tasks.
-  - **Stage Reference:** [1_Real_Unknown/kanban.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/1_Real_Unknown/kanban.md)
+  - **Stage Reference:** [1_Real_Unknown/kanban.md](kanban.md)
 
 - [x] **TSK-004: Configure Navigation & Menus**
   - **Assignee:** Gemini / Claude
   - **Details:** Add dynamic JSON configuration loading for navigation menus and ensure persistency via cookies.
-  - **Stage Reference:** [2_Environment/navigation.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/2_Environment/navigation.md)
+  - **Stage Reference:** [2_Environment/navigation.md](../2_Environment/navigation.md)
 
 - [x] **TSK-011: Supabase Database Integration & Setup**
   - **Assignee:** Gemini
   - **Details:** Initialize local Supabase CLI config, document database integration, and Azure Key Vault secret mappings.
-  - **Stage Reference:** [4_Formula/database.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/4_Formula/database.md)
+  - **Stage Reference:** [4_Formula/database.md](../4_Formula/database.md)
 
 ---
 

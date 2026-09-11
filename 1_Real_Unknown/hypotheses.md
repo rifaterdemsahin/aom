@@ -1,31 +1,21 @@
 # 🧪 Hypotheses
 
-> **Stage 1: Real Unknown** — Document your initial assumptions and how they will be validated in Stage 7.
+> **Stage 1: Real Unknown** — Assumptions to validate.
 
 ---
 
-## 🔍 Core Hypotheses
+## H1 — Metadata creation is the old bottleneck
 
-### Hypothesis 1: [State the assumption]
-*e.g., "Using Azure Key Vault instead of environment variables in git improves security posture without increasing development latency."*
+If LLMs draft EntityTypes, PropertyTypes, and Rule Objects, AOM becomes cheap to start. **Validate:** time to add a type in the explainer vs a class hierarchy.
 
-- **Rationale:** 
-- **Validation Method:** [e.g., Measure secret retrieval latency and verify zero secrets in git history]
-- **Linked Test:** [7_Testing_Known/validation_report.md](file:///Users/rifaterdemsahin/projects/delivery-pilot-template/7_Testing_Known/validation_report.md)
-- **Status:** ⏳ Pending Validation
+## H2 — Motion of the model was the missing 2002 piece
 
----
+If types are files, rclone can copy them across Drive, Azure Files, and S3 without a custom metadata bus. **Validate:** document rclone as transport; do not bake rclone credentials into git.
 
-### Hypothesis 2: [State the assumption]
-- **Rationale:** 
-- **Validation Method:** 
-- **Linked Test:** 
-- **Status:** ⏳ Pending Validation
+## H3 — One conceptual Type Square, many physical stores
 
----
+Files, SQL, graph, and vectors can be projections of the same runtime model. **Validate:** architecture.md maps each store to an AOM pattern.
 
-### Hypothesis 3: [State the assumption]
-- **Rationale:** 
-- **Validation Method:** 
-- **Linked Test:** 
-- **Status:** ⏳ Pending Validation
+## H4 — Delivery-pilot structure reduces agent drift
+
+If specs, thinking log, and smoke tests gate Pages, refactors stay recoverable when the operator LLM changes. **Validate:** SPEC-014 + smoke_test.py.
