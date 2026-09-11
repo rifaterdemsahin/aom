@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Delivery Pilot Template - A self-learning platform and project structure guided by AI.">
-  <title>✨ Delivery Pilot Template</title>
+  <meta name="description" content="Joe Yoder’s Adaptive Object Model: domain types as runtime metadata. What changes when LLMs, rclone, and multiple data models remove the old friction.">
+  <title>🧩 Adaptive Object Model — AOM</title>
   
   <!-- Modern Typography (Inter & Outfit) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -535,16 +535,15 @@
   <!-- 1. Two-Menu Architecture: Menu 1 - Project Menu (Always Visible) -->
   <header class="app-header">
     <div class="header-container">
-      <a href="#" class="app-logo">
-        <i class="fa-solid fa-plane-departure"></i>
-        <span>Delivery Pilot</span>
+      <a href="index.html" class="app-logo">
+        <i class="fa-solid fa-cubes"></i>
+        <span>AOM</span>
       </a>
       
       <nav class="project-menu-nav" id="projectMenu">
-        <!-- Will be populated dynamically via script, fallback options: -->
-        <a href="#" class="menu-link active">Home</a>
-        <a href="#docs" class="menu-link">Docs</a>
-        <a href="#api" class="menu-link">API</a>
+        <a href="index.html" class="menu-link active">Home</a>
+        <a href="5_Symbols/markdown_renderer.html?file=4_Formula/specs.md" class="menu-link">Specs</a>
+        <a href="5_Symbols/markdown_renderer.html?file=README.md" class="menu-link">README</a>
       </nav>
 
       <div class="social-links">
@@ -564,11 +563,11 @@
   <!-- Hero introduction Section -->
   <section class="hero-section">
     <div class="hero-badge">
-      <i class="fa-solid fa-code-fork"></i> Template Version 0.9
+      <i class="fa-solid fa-layer-group"></i> Joe Yoder · Ralph Johnson · then AI
     </div>
-    <h1 class="hero-title">Self-Learning Projects Boilerplate</h1>
+    <h1 class="hero-title">The domain model is data. The code is an interpreter.</h1>
     <p class="hero-subtitle">
-      A structured 7-stage framework bridging the gap between problem discovery, environment preparation, logic formulation, and validated deployment.
+      Adaptive Object Model stores classes, attributes, relationships, and rules as metadata. LLMs draft it, rclone moves it, and files / SQL / graph / vectors are projections of one Type Square.
     </p>
   </section>
 
@@ -586,7 +585,7 @@
           <span class="step-number">1</span>
           <div class="step-content">
             <h3 class="step-title">Real Unknown</h3>
-            <p class="step-desc">Identifying core problem statements, OKRs, and assumptions to validate.</p>
+            <p class="step-desc">AOM types as data; OKRs for the Pages explainer and template refactor.</p>
           </div>
         </li>
         <li class="step-item">
@@ -642,31 +641,63 @@
       </h2>
       
       <div class="carousel-container" id="carousel">
-        <!-- Slide 1 -->
         <div class="carousel-slide active">
-          <div class="carousel-placeholder-image">
-            <i class="fa-regular fa-image"></i>
-          </div>
-          <h3 class="carousel-title">Stage 3: Mockup Index</h3>
-          <p class="carousel-desc">Visual representation of the user dashboard landing page.</p>
+          <img src="5_Symbols/assets/images/hero-runtime.jpg" alt="Runtime objects assembled from metadata" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
+          <h3 class="carousel-title">Runtime, not compile time</h3>
+          <p class="carousel-desc">The user-facing model is assembled from descriptions.</p>
         </div>
-        
-        <!-- Slide 2 -->
         <div class="carousel-slide">
-          <div class="carousel-placeholder-image">
-            <i class="fa-solid fa-network-wired"></i>
-          </div>
-          <h3 class="carousel-title">Stage 3: Navigation Flow</h3>
-          <p class="carousel-desc">Interactive mobile menu drawer design simulation.</p>
+          <img src="5_Symbols/assets/images/type-square-still.jpg" alt="Type Square still life" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
+          <h3 class="carousel-title">Type Square</h3>
+          <p class="carousel-desc">EntityType, PropertyType, Entity, Property.</p>
+        </div>
+        <div class="carousel-slide">
+          <img src="5_Symbols/assets/images/friction-dissolve.jpg" alt="Friction dissolving" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
+          <h3 class="carousel-title">Friction dissolving</h3>
+          <p class="carousel-desc">Abstract models used to be expensive to operate.</p>
+        </div>
+        <div class="carousel-slide">
+          <img src="5_Symbols/assets/images/multi-model-rooms.jpg" alt="Multiple data model rooms" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
+          <h3 class="carousel-title">Multiple data models</h3>
+          <p class="carousel-desc">Files, graph, vectors, tables as projections.</p>
+        </div>
+        <div class="carousel-slide">
+          <img src="5_Symbols/assets/images/llm-writes-metadata.jpg" alt="LLM writing metadata" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
+          <h3 class="carousel-title">LLM writes metadata</h3>
+          <p class="carousel-desc">The interpreter still runs the descriptions.</p>
         </div>
       </div>
       
       <div class="carousel-controls" id="carouselDots">
         <span class="carousel-dot active" onclick="setSlide(0)"></span>
         <span class="carousel-dot" onclick="setSlide(1)"></span>
+        <span class="carousel-dot" onclick="setSlide(2)"></span>
+        <span class="carousel-dot" onclick="setSlide(3)"></span>
+        <span class="carousel-dot" onclick="setSlide(4)"></span>
       </div>
     </section>
   </main>
+
+  <section class="hero-section" style="text-align:left;max-width:900px;">
+    <h2 class="card-title">🧭 Type Square</h2>
+    <p class="hero-subtitle" style="margin-bottom:1rem;">Apply Type Object twice and Property once: EntityType → Entity, PropertyType → Property. Around that square: Accountability, Rule Objects, Builder, Interpreter.</p>
+    <p class="hero-subtitle">Yoder: the object model the user cares about is data; the coded model is an interpreter. If you want something to change quickly, push it into data.</p>
+    <h2 class="card-title" style="margin-top:2rem;">🤖 AI, rclone, many stores</h2>
+    <p class="hero-subtitle">LLMs draft metadata. rclone copies YAML/Markdown across Drive, Azure Files, and S3. Graph, SQL, vectors, and files are projections of one conceptual Type Square. Secrets stay in <code>dp-kv-deliverypilot</code>. This frontend stays on GitHub Pages.</p>
+    <p class="hero-subtitle" style="margin-top:1rem;">
+      📘 <a href="5_Symbols/markdown_renderer.html?file=README.md" style="color:var(--accent-cyan);">README.md</a>
+      · 📄 <a href="5_Symbols/markdown_renderer.html?file=4_Formula/specs.md" style="color:var(--accent-cyan);">SPEC-014</a>
+      · 🧠 <a href="https://adaptiveobjectmodel.com/" style="color:var(--accent-cyan);">adaptiveobjectmodel.com</a>
+    </p>
+  </section>
+
+  <footer style="max-width:1200px;margin:2rem auto 4rem;padding:0 2rem;color:var(--text-muted);font-size:0.9rem;">
+    <p style="color:var(--accent-cyan);font-family:var(--font-display);margin-bottom:0.75rem;">🔗 Live links</p>
+    <p>🌐 Live site — <a href="https://rifaterdemsahin.github.io/aom/" style="color:var(--accent-cyan);">https://rifaterdemsahin.github.io/aom/</a></p>
+    <p>📘 Live README.md — <a href="https://rifaterdemsahin.github.io/aom/README.md" style="color:var(--accent-cyan);">https://rifaterdemsahin.github.io/aom/README.md</a></p>
+    <p>🐙 GitHub repo — <a href="https://github.com/rifaterdemsahin/aom" style="color:var(--accent-cyan);">https://github.com/rifaterdemsahin/aom</a></p>
+    <p>📄 README on GitHub — <a href="https://github.com/rifaterdemsahin/aom/blob/main/README.md" style="color:var(--accent-cyan);">https://github.com/rifaterdemsahin/aom/blob/main/README.md</a></p>
+  </footer>
 
   <!-- 2. Two-Menu Architecture: Menu 2 - Debug Toggle Button -->
   <button class="debug-toggle-btn" id="debugToggle" title="Toggle Developer Debug Menu">
@@ -702,8 +733,8 @@
     let navigationData = {
       projectMenu: [
         { label: "Home", url: "index.html" },
-        { label: "Docs", url: "5_Symbols/markdown_renderer.html?file=2_Environment/README.md" },
-        { label: "API", url: "5_Symbols/markdown_renderer.html?file=4_Formula/README.md" }
+        { label: "Specs", url: "5_Symbols/markdown_renderer.html?file=4_Formula/specs.md" },
+        { label: "README", url: "5_Symbols/markdown_renderer.html?file=README.md" }
       ],
       debugMenu: [
         { label: "1. Real Unknown", url: "1_Real_Unknown/README.md" },

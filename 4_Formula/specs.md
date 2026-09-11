@@ -176,7 +176,7 @@
 - **Last Updated:** 2026-09-10
 
 ### SPEC-014: AOM project on delivery-pilot-template
-- **Status:** Draft
+- **Status:** Active
 - **Description:** The Adaptive Object Model explainer repo (`rifaterdemsahin/aom`) is refactored onto `delivery-pilot-template`. Static frontend stays on GitHub Pages (RULE-003). Root extras (`images/`, `.nojekyll`) move into allowed folders (RULE-005). Secrets use existing Key Vault `dp-kv-deliverypilot` (do not create a new vault).
 - **Key Behaviors:**
   - Template skeleton (7 stages, skills, workflows, coordinator files) is present in this repo

@@ -4,6 +4,22 @@ This log documents the thinking phase summaries and reasoning processes of the L
 
 ---
 
+## 📅 2026-09-11 — Symbols Agent: AOM explainer in two-menu index.html
+
+### 📥 Input / Task
+Keep GitHub Pages `index.html` at root with Project Menu + Debug Menu. Restore AOM copy, live footer links, and concept photos.
+
+### 💭 Thinking & Reasoning Process
+- Kept template chrome (menus, debug overlay, social GitHub/LinkedIn/YouTube) so SPEC-001 and smoke social-link checks pass.
+- Replaced hero, carousel (5 photos under `5_Symbols/assets/images/`), and added Type Square / AI / rclone article + live-link footer.
+- Project menu: Home, Specs, README — synced in `navigation_config.json` and renderer fallback.
+
+### 📤 Outcomes & Decisions
+- Image URLs no longer use root `images/` (RULE-005).
+- README lists Pages URL (smoke README Pages URL).
+
+---
+
 ## 📅 2026-09-11 — Real + Environment + Simulation + Formula: map AOM into stages
 
 ### 📥 Input / Task
