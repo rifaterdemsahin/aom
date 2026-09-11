@@ -12,6 +12,7 @@
 | Gemini | `gemini.md` | Google Gemini — multimodal analysis, image tasks |
 | GitHub Copilot | `copilot.md` | GitHub Copilot — GitHub-native integrations, Actions |
 | Kilo Code | `kilocode.md` | Kilo Code (model-agnostic) — precision code generation |
+| Grok | `grok.md` | xAI Grok — this repo's current operator |
 
 ### Switching LLMs — Generating Persona Files
 
