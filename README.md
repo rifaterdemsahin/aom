@@ -75,7 +75,12 @@ Keep the kernel small. A sloppy interpreter is still an accidental programming l
 - [adaptiveobjectmodel.com](https://adaptiveobjectmodel.com/)
 - [rclone](https://rclone.org/)
 
-## 🔗 This site
+## 🔗 Live links
+
+- 🌐 Live site: [https://rifaterdemsahin.github.io/aom/](https://rifaterdemsahin.github.io/aom/)
+- 📘 Live README.md: [https://rifaterdemsahin.github.io/aom/README.md](https://rifaterdemsahin.github.io/aom/README.md)
+- 🐙 GitHub repo: [https://github.com/rifaterdemsahin/aom](https://github.com/rifaterdemsahin/aom)
+- 📄 README on GitHub: [https://github.com/rifaterdemsahin/aom/blob/main/README.md](https://github.com/rifaterdemsahin/aom/blob/main/README.md)
 
 | File | Role |
 | --- | --- |
