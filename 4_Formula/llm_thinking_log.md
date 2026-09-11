@@ -4,6 +4,23 @@ This log documents the thinking phase summaries and reasoning processes of the L
 
 ---
 
+## 📅 2026-09-11 — Symbols Agent: original article is Home
+
+### 📥 Input / Task
+Make sure the original explainer copy (nav through footer) is actually on the site.
+
+### 💭 Thinking & Reasoning Process
+- The long article was only on Explainer; Home was the template dashboard. User pasted the original page including 🧩 AOM section nav.
+- Restored that page as `index.html` with image paths under `5_Symbols/assets/images/`.
+- Project Menu labels match the original: Idea, Type Square, Friction, AI + LLM, rclone, Data models, README. Section items hash-scroll; README goes through the renderer.
+- Did not hide section nav on small screens.
+- Original footer restored; LinkedIn/YouTube added for smoke.
+
+### 📤 Outcomes & Decisions
+- Home is the article. `aom_explainer.html` redirects to Home. SPEC-015 updated.
+
+---
+
 ## 📅 2026-09-11 — Symbols Agent: restore old explainer to Project Menu
 
 ### 📥 Input / Task

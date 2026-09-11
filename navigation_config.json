@@ -1,9 +1,12 @@
 {
   "projectMenu": [
-    {"label": "Home", "url": "index.html"},
-    {"label": "Explainer", "url": "5_Symbols/aom_explainer.html"},
-    {"label": "Specs", "url": "5_Symbols/markdown_renderer.html?file=4_Formula/specs.md"},
-    {"label": "README", "url": "5_Symbols/markdown_renderer.html?file=README.md"}
+    {"label": "Idea", "url": "index.html"},
+    {"label": "Type Square", "url": "index.html"},
+    {"label": "Friction", "url": "index.html"},
+    {"label": "AI + LLM", "url": "index.html"},
+    {"label": "rclone", "url": "index.html"},
+    {"label": "Data models", "url": "index.html"},
+    {"label": "📘 README.md", "url": "5_Symbols/markdown_renderer.html?file=README.md"}
   ],
   "debugMenu": [
     {"label": "1. Real Unknown", "url": "1_Real_Unknown/README.md"},

@@ -4,8 +4,8 @@
 > Latest run overwrites this file; one report per test run.
 
 ## Run Info
-- **Date:** 2026-09-11 11:30
-- **Trigger:** Restore explainer to Project Menu
+- **Date:** 2026-09-11 11:34
+- **Trigger:** Restore original explainer as Home
 - **Mode:** Local filesystem
 - **Tester:** smoke_test.py (automated)
 - **Verdict:** ✅ ALL PASS
